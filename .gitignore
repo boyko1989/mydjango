@@ -1,3 +1,4 @@
 venv/
-static/admin
 .idea/
+static/admin/
+**/__pycache__/
