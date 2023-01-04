@@ -26,8 +26,7 @@ SECRET_KEY = 'django-insecure-fr9m%iio8h8gghswlcts$5!xaciu$2u0-kb36fare3y)et=n!h
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1', '192.168.2.101', '128.69.74.42', '192.168.5.247']
-
+ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1', '192.168.2.101', '128.69.74.42', '192.168.5.247', 'boykos.loc'] # TODO Почему не реагирует на '0.0.0.0'
 
 # Application definition
 
