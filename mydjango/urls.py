@@ -16,6 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from welcome.views import index, skills, tools
+from django.shortcuts import render
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', index, name='index'),
+    path('skills/', skills, name='skills'),
+    path('tools/', tools, name='tools'),
 ]
