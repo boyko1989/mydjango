@@ -119,6 +119,17 @@ STATIC_URL = '/static/'
 STATIC_ROOT = [
     BASE_DIR / "static/",
 ]
+
+
+# есть ещё вариант
+STATIC_URL = '/static/'
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+STATIC_ROOT = [
+    BASE_DIR / "static/",
+]
+
+# после включения через модуль os у нас начинает работать команда `python manage.py collectstatic`
+
 ```
 
 
